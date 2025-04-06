@@ -12,6 +12,22 @@
     padding: 0;
 }
 
+
+/* Header */
+.left {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+.right {
+  position: absolute;
+  top: 50px;
+  right: 90px;
+}
+
+/* End Header */
+
 body {
   background-color: var(--accent);
   height: 100vh;
@@ -26,7 +42,7 @@ body {
 
 .container {
   display: flex;
-  width: 100%;
+  width: 90%;
   max-width: 90%;
   height: 95vh;
   overflow: hidden;

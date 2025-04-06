@@ -24,13 +24,10 @@ const { title = "ITT", description = "TEST",image} = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<Header />
-		<slot />
-
-
+		<div class="container">
+			<Header />
+			<slot />
+		</div>
 		<script src="https://kit.fontawesome.com/c86a35ea26.js" crossorigin="anonymous"></script>
-
 	</body>
-
-
 </html>
