@@ -1,14 +1,24 @@
 ---
+import Layout from '../layouts/Layout.astro';
 import '../assets/styles.css';
 ---
 
-<div class="container">
-  <div class="text-content">
-    <h1>Install Tweaks Tool</h1>
-    <p>Included most Windows 10/11 Software and Windows Tweaks & Remove Bloatwares & activation</p>
-    <div class="code-box">irm bit.ly/ittea | iex</div>
+<Layout title="Install Tweaks Tool" description="Included most Windows 10/11 Software..." image="https://...">
+  <div class="container">
+    <div class="text-content">
+      <h1>Install Tweaks Tool</h1>
+      <p>Included most Windows 10/11 Software and Windows Tweaks & Remove Bloatwares & activation</p>
+      <div class="code-box">irm bit.ly/ittea | iex</div>
+
+        <div class="usage" style="margin-top: 25px;">
+          <img alt="Endpoint Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fittools-7d9fe-default-rtdb.firebaseio.com%2Fmessage.json">
+        </div>
+
+    </div>
+    <div class="image-content">
+      <img src="https://raw.githubusercontent.com/emadadel4/itt/refs/heads/main/static/Images/themes.gif" alt="Landing Image">
+    </div>
+
+
   </div>
-  <div class="image-content">
-    <img src="https://raw.githubusercontent.com/emadadel4/itt/refs/heads/main/static/Images/themes.gif" alt="Landing Image" />
-  </div>
-</div>
+</Layout>
