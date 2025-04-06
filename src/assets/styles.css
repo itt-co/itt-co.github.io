@@ -1,7 +1,8 @@
 
 :root{
-  --accent:#f9f9f9;
+  --accent:#ffffff;
   --text-color: black;
+  --code-box: whiteSmoke;
 }
 
 * {
@@ -24,8 +25,8 @@
   .container {
     display: flex;
     width: 100%;
-    max-width: 1400px;
-    height: 90vh;
+    max-width: 90%;
+    height: 95vh;
     overflow: hidden;
   }
 
@@ -52,7 +53,7 @@
   }
 
   .code-box {
-    background-color: #3c3f44;
+    background-color: var(--code-box);
     padding: 16px 20px;
     border-radius: 10px;
     font-family: monospace;
@@ -60,7 +61,7 @@
     display: inline-block;
     user-select: all;
     cursor: text;
-    color: #ffffff;
+    color: var(--text-color);
     width: fit-content;
   }
 
@@ -69,7 +70,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
   }
 
   .image-content img {
@@ -77,7 +77,7 @@
     max-height: 100%;
     object-fit: contain;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.10);
+    box-shadow: 0 0 10px rgba(0,0,0,0.50);
   }
 
   @media (max-width: 768px) {
@@ -116,5 +116,6 @@
   :root {
     --accent:#2b2d31;
     --text-color: white;
+    --code-box: #3c3f44;
   }
 }
